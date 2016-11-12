@@ -1,7 +1,7 @@
 # aspnetcore-reactjs
 This is a simple application that shows how you can integrate React.js with AspNetCore. 
 
-# create bunldes
+# create bundles
 
 Open a terminal and navigate to src/npandrei.demos.aspNetCore. There run
 
