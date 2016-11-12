@@ -35,3 +35,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Ignore .net build folders
+bin
+obj
+
+# ignore the bundles we generate
+*.bundle.js
+
+# ignore the lock files
+project.lock.json
