@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
+        "Microsoft.AspNetCore.Diagnostics": "1.0.0",
+        "Microsoft.Extensions.Logging": "1.0.0",
+        "Microsoft.Extensions.Logging.Console": "1.0.0",
+        "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+        "Microsoft.Extensions.Configuration.Json": "1.0.0",
+        "npandrei.demos.common": "1.0.0", // just as example for how to reference another project
+        "Microsoft.AspNetCore.Routing": "1.0.1",
+        "Microsoft.AspNetCore.Mvc": "1.0.1"
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
