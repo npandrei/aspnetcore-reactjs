@@ -1,2 +1,2 @@
 # aspnetcore-reactjs
-Demo project that used AspNetCore and React.js
+This is a simple application that shows how you can integrate React.js with AspNetCore. 
