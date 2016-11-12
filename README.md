@@ -27,4 +27,4 @@ to download all dependencies. After that, you can run
 
 dotnet run
 
-to start the project. You can use http://localhost:5000 to access the demo
+in /src/npandrei.demos.aspNetCore to start the project. You can use http://localhost:5000 to access the demo
