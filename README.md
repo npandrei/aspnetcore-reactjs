@@ -1,5 +1,5 @@
 # aspnetcore-reactjs
-This is a simple application that shows how you can integrate React.js with AspNetCore. 
+This is a simple application that shows how you can integrate React.js, readux and react-router with AspNetCore. 
 
 # create bundles
 
@@ -41,3 +41,9 @@ dotnet run
 ```
 
 to start the project. You can use http://localhost:5000 to access the demo.
+
+# project
+
+There are 2 main goals for this project:
+- configure an AspNetCore project from scratch & reference another project. Using Visual Studio is simple, if you use the default template, but this one started from scratch and it was developed with Visual Studio Code, so it should contain the minimum of dependencies required.
+- configure React.js, redux and react-router to work together, and simulate some server-side work.
